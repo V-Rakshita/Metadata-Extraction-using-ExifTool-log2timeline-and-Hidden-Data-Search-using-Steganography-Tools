@@ -46,6 +46,8 @@ sudo apt install exiftool -y
 ```bash
 exiftool image.jpg
 ```
+<img width="798" height="476" alt="image" src="https://github.com/user-attachments/assets/9392105e-4246-4d2d-b87c-0495fe20e6e4" />
+
 - **Batch process a folder:**
 ```bash
 exiftool -r /path/to/folder
@@ -64,10 +66,13 @@ exiftool -r /path/to/folder
 ```
 sudo apt install plaso -y
 ```
+<img width="625" height="530" alt="image" src="https://github.com/user-attachments/assets/d1b85e2d-1406-4fea-bfdc-62495b2a9602" />
 
 ```
 sudo apt install steghide -y
 ```
+<img width="410" height="403" alt="image" src="https://github.com/user-attachments/assets/75f9033e-4afb-4e55-bcf4-93e2af7f1ffe" />
+
 - **Embed data**
 ```
 steghide embed -cf /home/kali/Downloads/wallpaper.jpg -ef /home/kali/Downloads/secret.txt
@@ -79,6 +84,7 @@ steghide embed -cf /home/kali/Downloads/wallpaper.jpg -ef /home/kali/Downloads/s
 steghide extract -sf hidden.jpg
 
 ```
+<img width="690" height="119" alt="image" src="https://github.com/user-attachments/assets/ef451cd5-c1e2-455a-88fd-34e458c30623" />
 
 
 ### Using binwalk – for file analysis
@@ -86,6 +92,12 @@ steghide extract -sf hidden.jpg
 sudo apt install binwalk -y
 binwalk suspicious.jpg
 ```
+
+<img width="910" height="247" alt="image" src="https://github.com/user-attachments/assets/551a5e1a-aeca-47f3-8147-322efd8c7e88" />
+
+<img width="846" height="316" alt="image" src="https://github.com/user-attachments/assets/b4e26cbf-863e-40a2-b02c-e2fc01a17cd7" />
+
+
 ```bash
 binwalk /home/kali/Downloads/wallpaper.jpg
 ```
