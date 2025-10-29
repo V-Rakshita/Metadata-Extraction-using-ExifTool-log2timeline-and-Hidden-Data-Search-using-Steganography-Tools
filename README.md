@@ -73,18 +73,19 @@ sudo apt install steghide -y
 ```
 <img width="410" height="403" alt="image" src="https://github.com/user-attachments/assets/75f9033e-4afb-4e55-bcf4-93e2af7f1ffe" />
 
-- **Embed data**
+**Embed data**
 ```
 steghide embed -cf /home/kali/Downloads/wallpaper.jpg -ef /home/kali/Downloads/secret.txt
 ```
-
+<img width="690" height="119" alt="image" src="https://github.com/user-attachments/assets/ef451cd5-c1e2-455a-88fd-34e458c30623" />
 
 - **Extract hidden data:**
 ```
 steghide extract -sf hidden.jpg
 
 ```
-<img width="690" height="119" alt="image" src="https://github.com/user-attachments/assets/ef451cd5-c1e2-455a-88fd-34e458c30623" />
+
+<img width="559" height="263" alt="image" src="https://github.com/user-attachments/assets/ee45539e-5e8b-4abb-a224-87284f6417b7" />
 
 
 ### Using binwalk – for file analysis
